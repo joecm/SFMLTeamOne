@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 11 19:33:43 2022
+# Make data base, printed on Thu Aug 11 20:23:32 2022
 
 # Variables
 
@@ -45,7 +45,7 @@ RM = rm -f
 # environment
 GDM_LANG = es_ES.UTF-8
 # environment
-VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"74522ba3f1649aca072dde1ae3214658.es","_translationsConfigFile":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/tcf.json","_cacheRoot":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es","_resolvedLanguagePackCoreLocation":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"58ee994e295d58ff8ba81b345e5d3728.es","_translationsConfigFile":"/home/joe/.config/Code/clp/58ee994e295d58ff8ba81b345e5d3728.es/tcf.json","_cacheRoot":"/home/joe/.config/Code/clp/58ee994e295d58ff8ba81b345e5d3728.es","_resolvedLanguagePackCoreLocation":"/home/joe/.config/Code/clp/58ee994e295d58ff8ba81b345e5d3728.es/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/joe/.config/Code/clp/58ee994e295d58ff8ba81b345e5d3728.es/corrupted.info","_languagePackSupport":true}
 # environment
 JOURNAL_STREAM = 8:32028
 # makefile (from 'Makefile', line 1)
@@ -57,6 +57,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # environment
 USERNAME = joe
 # makefile (from 'Makefile', line 54)
+ 
 SOURCES := src/Aircraft.cpp src/SceneNode.cpp src/PararellTask.cpp src/Command.cpp src/MenuState.cpp src/Game.cpp src/State.cpp src/TitleState.cpp src/PauseState.cpp src/SpriteNode.cpp src/Player.cpp src/CommandQueue.cpp src/GameState.cpp src/World.cpp src/StateStack.cpp src/Utility.cpp src/main.cpp src/Entity.cpp src/Application.cpp src/LoadingState.cpp
 # makefile (from 'Makefile', line 10)
 CXXFLAGS := -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder
@@ -95,7 +96,7 @@ XDG_SESSION_DESKTOP = gnome
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 31080
+GIO_LAUNCHED_DESKTOP_FILE_PID = 46586
 # automatic
 %F = $(notdir $%)
 # environment
@@ -223,7 +224,7 @@ OBJECTS := src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/M
 # environment
 LANG = C
 # environment
-VSCODE_PID = 31080
+VSCODE_PID = 46586
 # variable set hash-table stats:
 # Load=107/1024=10%, Rehash=0, Collisions=16/168=10%
 
@@ -233,10 +234,10 @@ VSCODE_PID = 31080
 
 # Directories
 
-# . (device 66310, inode 13763293): 9 files, no impossibilities.
+# . (device 66310, inode 13763293): 10 files, no impossibilities.
 # src (device 66310, inode 13763299): 42 files, no impossibilities.
 
-# 51 files, no impossibilities in 2 directories.
+# 52 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -292,7 +293,6 @@ Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-07-01 21:05:36.35797153
 #  File has been updated.
- 
 #  Successfully updated.
 
 # Not a target:
@@ -340,6 +340,7 @@ src/State.o:
 # Not a target:
 src/StateStack.o:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-07-05 20:31:52.407153185
 #  File has been updated.
 #  Successfully updated.
@@ -439,7 +440,7 @@ main: src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuSt
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-16 18:13:48.322256852
+#  Last modified 2022-08-11 19:34:21.751191255
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -488,12 +489,12 @@ src/CommandQueue.o:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 79 / storage = 933 B / avg = 11 B
-# current buf: size = 8162 B / used = 933 B / count = 79 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 80 / storage = 938 B / avg = 11 B
+# current buf: size = 8162 B / used = 938 B / count = 80 / avg = 11 B
 
-# strcache performance: lookups = 100 / hit rate = 21%
+# strcache performance: lookups = 101 / hit rate = 20%
 # hash-table stats:
-# Load=79/8192=1%, Rehash=0, Collisions=2/100=2%
-# Finished Make data base on Thu Aug 11 19:33:43 2022
+# Load=80/8192=1%, Rehash=0, Collisions=2/101=2%
+# Finished Make data base on Thu Aug 11 20:23:32 2022
 
  

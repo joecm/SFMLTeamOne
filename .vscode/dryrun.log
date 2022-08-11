@@ -8,7 +8,6 @@ g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/C
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/MenuState.cpp  -o src/MenuState.o
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Game.cpp  -o src/Game.o
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/State.cpp  -o src/State.o
- 
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/TitleState.cpp  -o src/TitleState.o
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/PauseState.cpp  -o src/PauseState.o
 g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/SpriteNode.cpp  -o src/SpriteNode.o
