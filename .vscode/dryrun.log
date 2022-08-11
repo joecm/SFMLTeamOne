@@ -1,0 +1,28 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/joe/VisualCode/SFMLTeamOne'
+mkdir -p output
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Aircraft.cpp  -o src/Aircraft.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/SceneNode.cpp  -o src/SceneNode.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/PararellTask.cpp  -o src/PararellTask.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Command.cpp  -o src/Command.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/MenuState.cpp  -o src/MenuState.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Game.cpp  -o src/Game.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/State.cpp  -o src/State.o
+ 
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/TitleState.cpp  -o src/TitleState.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/PauseState.cpp  -o src/PauseState.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/SpriteNode.cpp  -o src/SpriteNode.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Player.cpp  -o src/Player.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/CommandQueue.cpp  -o src/CommandQueue.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/GameState.cpp  -o src/GameState.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/World.cpp  -o src/World.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/StateStack.cpp  -o src/StateStack.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Utility.cpp  -o src/Utility.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/main.cpp  -o src/main.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Entity.cpp  -o src/Entity.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/Application.cpp  -o src/Application.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -c src/LoadingState.cpp  -o src/LoadingState.o
+g++ -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder -Iinclude -o output/main src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio -lstdc++ -lm -Llib
+echo Executing 'all' complete!
+make: Leaving directory '/home/joe/VisualCode/SFMLTeamOne'
+ 

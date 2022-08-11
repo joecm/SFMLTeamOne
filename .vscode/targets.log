@@ -1,0 +1,499 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 11 19:33:43 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = gnome
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 21)
+SRC := src
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 48)
+INCLUDES := -Iinclude
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = gnome
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/joe/VisualCode/SFMLTeamOne
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 43)
+RM = rm -f
+# environment
+GDM_LANG = es_ES.UTF-8
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"74522ba3f1649aca072dde1ae3214658.es","_translationsConfigFile":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/tcf.json","_cacheRoot":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es","_resolvedLanguagePackCoreLocation":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/joe/.config/Code/clp/74522ba3f1649aca072dde1ae3214658.es/corrupted.info","_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:32028
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = joe
+# makefile (from 'Makefile', line 54)
+SOURCES := src/Aircraft.cpp src/SceneNode.cpp src/PararellTask.cpp src/Command.cpp src/MenuState.cpp src/Game.cpp src/State.cpp src/TitleState.cpp src/PauseState.cpp src/SpriteNode.cpp src/Player.cpp src/CommandQueue.cpp src/GameState.cpp src/World.cpp src/StateStack.cpp src/Utility.cpp src/main.cpp src/Entity.cpp src/Application.cpp src/LoadingState.cpp
+# makefile (from 'Makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g -I/usr/include/SFML -Wreorder
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+_ = /usr/share/code/code
+# environment
+VSCODE_CWD = /home/joe
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/debian:@/tmp/.ICE-unix/2140,unix/debian:/tmp/.ICE-unix/2140
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 41)
+LIBDIRS := lib
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = di=34:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.deb=90:*.h=34:*.o=33:*.cpp=36
+# environment
+XDG_SESSION_DESKTOP = gnome
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 31080
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+PWD = /home/joe/VisualCode/SFMLTeamOne
+# environment
+QT_QPA_PLATFORMTHEME = qgnomeplatform
+# makefile (from 'Makefile', line 65)
+OUTPUTMAIN := output/main
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 2195
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/joe
+# environment
+VSCODE_CODE_CACHE_PATH = /home/joe/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LOGNAME = joe
+# environment
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 40)
+INCLUDEDIRS := include
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'Makefile', line 44)
+MD := mkdir -p
+# environment
+XDG_VTNR = 2
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 42)
+FIXPATH = $1
+# environment
+XDG_SESSION_ID = 4
+# environment
+USER = joe
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 24)
+INCLUDE := include
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 15)
+LFLAGS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio -lstdc++ -lm
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9dbb3c04-1.70.1-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 38)
+MAIN := main
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 39)
+SOURCEDIRS := src
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 18)
+OUTPUT := output
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 7)
+CXX = g++
+# environment
+LC_ALL = C
+# environment
+SBX_CHROME_API_RQ = 1
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o
+# environment
+LANG = C
+# environment
+VSCODE_PID = 31080
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=16/168=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 13763293): 9 files, no impossibilities.
+# src (device 66310, inode 13763299): 42 files, no impossibilities.
+
+# 51 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: output main
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'Makefile', line 68):
+	@echo Executing 'all' complete!
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 20:31:52.855150993
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Application.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-06 18:45:11.69663743
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Entity.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:51.23689202
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:05:36.35797153
+#  File has been updated.
+ 
+#  Successfully updated.
+
+# Not a target:
+src/GameState.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 19:20:57.550505754
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Player.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:50.104898366
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/LoadingState.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-06 20:18:29.053091052
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/World.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-06 20:26:56.998789245
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/SpriteNode.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:49.556901438
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/State.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 19:20:56.35849281
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/StateStack.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 20:31:52.407153185
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/Aircraft.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:48.440907692
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/PauseState.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 20:38:57.602391646
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/TitleState.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 19:20:56.762497197
+#  File has been updated.
+#  Successfully updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	./$(OUTPUTMAIN)
+	@echo Executing 'run: all' complete!
+
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+
+# Not a target:
+src/Command.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:48.596906818
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/PararellTask.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 20:31:51.427157981
+#  File has been updated.
+#  Successfully updated.
+
+main: src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o
+# automatic
+# | := 
+# automatic
+# < := src/Aircraft.o
+# automatic
+# ^ := src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o
+# automatic
+# ? := src/Aircraft.o src/SceneNode.o src/PararellTask.o src/Command.o src/MenuState.o src/Game.o src/State.o src/TitleState.o src/PauseState.o src/SpriteNode.o src/Player.o src/CommandQueue.o src/GameState.o src/World.o src/StateStack.o src/Utility.o src/main.o src/Entity.o src/Application.o src/LoadingState.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 74):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-16 18:13:48.322256852
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(MD) $(OUTPUT)
+
+# Not a target:
+src/SceneNode.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:49.33690267
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Game.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:49.044904307
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/MenuState.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 20:38:57.194396758
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/Utility.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 19:20:58.270513573
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/CommandQueue.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-01 21:08:50.352896976
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=30/1024=3%, Rehash=0, Collisions=0/69=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 79 / storage = 933 B / avg = 11 B
+# current buf: size = 8162 B / used = 933 B / count = 79 / avg = 11 B
+
+# strcache performance: lookups = 100 / hit rate = 21%
+# hash-table stats:
+# Load=79/8192=1%, Rehash=0, Collisions=2/100=2%
+# Finished Make data base on Thu Aug 11 19:33:43 2022
+
+ 
